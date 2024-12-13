@@ -1,0 +1,65 @@
+body {
+  font-family:'Trebuchet MS';
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-title {
+  margin-top: 30px;
+  color: #111010;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.application-box {
+  margin: 20px 250px;
+  padding: 20px 5px 60px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  
+}
+.application-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+.application-table {
+  width: 70%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+.application-table th, 
+.application-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.application-table th {
+  background-color: #212529;
+  color: white;
+  text-align: center;
+}
+.application-table td {
+  vertical-align: middle;
+}
+.application-table tr:hover {
+  background-color: #ddd;
+}
+.application-table button {
+  padding: 5px 10px;
+  background-color: #3b3a3b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.application-table button:hover {
+  background-color: #585858;
+}
+
+.resume{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}

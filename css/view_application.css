@@ -1,0 +1,139 @@
+body {
+  font-family:'Trebuchet MS';
+  margin: 0;
+  padding: 0;
+}
+.application-head-title{
+  margin-top: 30px;
+  color: #111010;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.application-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+.application-box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#acceptBtn, #rejectBtn{
+  margin-top: 20px;
+  background-color: #484f55;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+#acceptBtn:hover, #rejectBtn:hover{
+  background-color: #191a1b;
+}
+.application-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+.applicant-name{
+  font-size: 18px;
+  font-weight: bold;
+}
+.applicant-status{
+  font-size: 14px;
+  color: #666;
+  text-align: right;
+}
+.cover-letter{
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin: 10px 0;
+}
+#downloadBtn{
+  margin-top: 20px;
+  background-color: #969597;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+#downloadBtn:hover{
+  background-color: #292b2c;
+}
+.hired-applicants-box {
+  margin: 20px 250px;
+  padding: 20px 5px 60px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  
+}
+.hired-applicants-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+.hired-applicants-table {
+  width: 70%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+.hired-applicants-table th, 
+.hired-applicants-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.hired-applicants-table th {
+  background-color: #212529;
+  color: white;
+  text-align: center;
+}
+.hired-applicants-table td {
+  vertical-align: middle;
+}
+.hired-applicants-table tr:hover {
+  background-color: #ddd;
+}
+.hired-applicants-table button {
+  padding: 5px 10px;
+  background-color: #3b3a3b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.hired-applicants-table button:hover {
+  background-color: #585858;
+}
+.hired-resume{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

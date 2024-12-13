@@ -1,0 +1,65 @@
+*{
+  font-family:'Trebuchet MS';
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image: linear-gradient(-225deg, #E3FDF5 0%, #ffe6fc 100%);
+}
+.title-row{
+  display: flex;
+  justify-content: space-between;
+}
+.title-row-value a{
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 10px;
+}
+.title-row-value a:hover{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background: white;
+}
+.logout{
+  position: absolute;
+  top: 80px;
+  right: 50px;
+}
+.audit{
+  position: absolute;
+  top: 80px;
+  left: 50px;
+}
+.search{
+  margin: 0 50px;
+}
+.search-box{
+  width: 400px;
+  padding: 5px;
+  height: 20px;
+  border-radius: 12px;
+  border: 2px solid rgba(0, 0, 0, 0.596);
+}
+.searchBtn{
+  margin-left: 10px;
+  background-color: #343a40;
+  color: rgb(241, 241, 241);
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 80px;
+  height: 30px;
+}
+.searchBtn:hover{
+  margin-left: 10px;
+  background-color: white;
+  color: #343a40;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 80px;
+  height: 30px;
+}
+
